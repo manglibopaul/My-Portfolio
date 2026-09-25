@@ -85,9 +85,9 @@ img {
 
 .hero-content-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 48px;
+    gap: 90px;
     min-height: 620px;
     width: 100%;
     max-width: 1280px;
