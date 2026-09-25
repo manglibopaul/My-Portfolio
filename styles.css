@@ -84,7 +84,7 @@ img {
 
 .hero-content-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 48px;
     min-height: 620px;
@@ -220,7 +220,8 @@ img {
 .resume-container,
 .portfolio-container,
 .contact-container {
-    max-width: 1400px;
+    width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -341,8 +342,9 @@ img {
 
 .resume-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1.3fr 1fr;
     gap: 42px;
+    width: 100%;
 }
 
 .resume-subtitle {
@@ -425,9 +427,10 @@ img {
 
 .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
     margin-top: 28px;
+    width: 100%;
 }
 
 .portfolio-card {
@@ -444,6 +447,7 @@ img {
     min-height: 260px;
     background: linear-gradient(135deg, #f6fbf9 0%, #ffffff 100%);
     border: 1px solid #dff5ee;
+    grid-column: 1 / -1;
 }
 
 .artistry-content {
@@ -488,7 +492,7 @@ img {
 
 .contact-info-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 20px 30px;
     margin: 28px 0 30px;
 }
