@@ -432,64 +432,8 @@ footer {
     margin: 0 auto;
 }
 
-.resume-heading {
-    margin-bottom: 40px;
-}
-
-.resume-kicker {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 700;
-    letter-spacing: 3px;
-    color: #00c896;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-}
-
-.resume-title {
-    font-size: 2.6rem;
-    font-weight: 700;
-    color: #000;
-    margin: 0;
-    letter-spacing: -1px;
-}
-
-.resume-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-}
-
-.resume-subtitle {
-    font-size: 1.3rem;
-    font-weight: 700;
-    color: #000;
-    margin: 20px 0 20px 0;
-}
-
-.resume-card {
-    background: #f8f9fa;
-    border-radius: 10px;
-    padding: 30px;
-    border-left: 4px solid #00c896;
-    margin-bottom: 30px;
-}
-
-.resume-name {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: #00c896;
-    margin: 0 0 10px 0;
-    text-transform: uppercase;
-}
-
-.resume-text {
-    font-size: 0.95rem;
-    color: #555;
-    line-height: 1.8;
-    margin-bottom: 15px;
-}
-
+.detail-item a:hover {
+    text-decoration: underline;
 .resume-item {
     position: relative;
     padding-left: 25px;
@@ -598,6 +542,13 @@ footer {
     display: block;
 }
 
+<<<<<<< HEAD
+=======
+.portfolio-card:hover img {
+    transform: scale(1.05);
+}
+
+>>>>>>> 559e7c2 (Resolve conflicts and finalize portfolio)
 .artistry-card {
     min-height: 260px;
     background: linear-gradient(135deg, #f6fbf9 0%, #ffffff 100%);
