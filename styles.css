@@ -248,7 +248,7 @@ img {
 
 .about-image-left {
     width: 360px;
-    height: 430px;
+    height: 360px;
     flex-shrink: 0;
     border-radius: 24px;
     overflow: hidden;
@@ -634,7 +634,7 @@ img {
     .about-image-left {
         width: 100%;
         max-width: 300px;
-        height: 360px;
+        height: 300px;
         margin: 0 auto;
     }
 
